@@ -1,0 +1,33 @@
+15-Jan-2022 03:14:13.822 SEVERE [ajp-nio-0.0.0.0-8009-exec-2] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [23205]
+15-Jan-2022 03:59:08.853 SEVERE [ajp-nio-0.0.0.0-8009-exec-4] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [5635]
+15-Jan-2022 03:59:10.319 SEVERE [ajp-nio-0.0.0.0-8009-exec-5] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+15-Jan-2022 05:55:46.001 SEVERE [ajp-nio-0.0.0.0-8009-exec-7] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+15-Jan-2022 05:55:52.970 SEVERE [ajp-nio-0.0.0.0-8009-exec-10] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+15-Jan-2022 07:02:05.012 SEVERE [ajp-nio-0.0.0.0-8009-exec-9] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [5635]
+15-Jan-2022 07:02:06.471 SEVERE [ajp-nio-0.0.0.0-8009-exec-10] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+15-Jan-2022 18:07:29.758 INFO [http-nio-8080-exec-1] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x050x010x00...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+15-Jan-2022 22:51:18.374 INFO [http-nio-8080-exec-6] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xee0x010x000x000xea0x030x03+0x0ev0xd86M0xaa0xbf0xc6]K0x010x92j0x980xa30x020xcb0x100xc90xef0xde0xfc0xb20xd60x050xaf0xab0x86k0xa5P ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)

